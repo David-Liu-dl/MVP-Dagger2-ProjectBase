@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="note_demo">This MVP-Dagger base project can help you build up a project quickly. You just need to focus on UI implementation. Easy and Quick!</string>
+    <string name="warning_activity_main">After click CONTINUE, the Error dialog will show up automatically
+        . All the Internet errors are already handled by TaskBase part. If want to customize error handling, just Override the TaskFailure methods.</string>
+
+    <string name="str_format_success" formatted="true">Success! Name: %1$s | FragId: %2$s</string>
+    <string name="activity_toolbar_title_main">Just Demo</string>
 </resources>
