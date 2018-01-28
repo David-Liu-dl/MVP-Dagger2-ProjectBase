@@ -2,11 +2,9 @@
 
 An Android project base with MVP design pattern to help you build a project fast and clean. 
 
-| Project Structure |
-| ------ |
-| ![](https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/mvpdagger.png) | 
-| Package Structure|
-| <a href="url"><img src="https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/package.jpeg" align="left" height="500" ></a> |
+| Project Structure | Package Structure|
+| --- | ------ |
+| <img src="https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/package.jpeg" width="200"> | ![](https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/mvpdagger.png)|
 
 ## Table of Contents
 
