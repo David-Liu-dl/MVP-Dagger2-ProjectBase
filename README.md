@@ -1,10 +1,14 @@
-# MVP-Dagger2-Project Base
+# MVP Dagger2 Project-Base
+
+[![License](https://img.shields.io/badge/License%20-Apache%202-337ab7.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![MinSdk](https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=19)
+[![Methods](https://img.shields.io/badge/author-David-blue.svg)](https://github.com/DavidFancy)
 
 An Android project base with MVP design pattern to help you build a project fast and clean. 
 
-| Project Structure | Package Structure|
+| Structure | UML|
 | --- | ------ |
-| <img src="https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/package.jpeg" width="200"> | ![](https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/mvpdagger.png)|
+| <img src="https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/package.jpeg" width="400"> | ![](https://github.com/DavidFancy/MVP-Dagger2-ProjectBase/blob/master/app/imgs/mvpdagger.png)|
 
 ## Table of Contents
 
@@ -421,6 +425,22 @@ Now, you can see how convenient and clean it is. You can implement any UserApi c
                 .show();
     }
 ```
+## License
+
+Copyright 2017 Yuhao Liu
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 [mvp]: <https://github.com/googlesamples/android-architecture>
 
 [dagger2]: <https://github.com/google/dagger>
