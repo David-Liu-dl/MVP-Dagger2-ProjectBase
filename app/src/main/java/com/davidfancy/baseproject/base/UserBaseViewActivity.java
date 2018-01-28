@@ -13,6 +13,7 @@ import javax.inject.Inject;
  */
 
 public abstract class UserBaseViewActivity extends TaskBaseActivity implements UserBaseContract.View{
+
     protected UserPresenterImp userPresenter;
 
     @Inject

@@ -17,5 +17,8 @@ public abstract class AppBaseActivity extends BaseActivity {
         setupActivityComponent();
     }
 
+    /**
+     * Injecting the Activity to Dagger
+     */
     protected abstract void setupActivityComponent();
 }

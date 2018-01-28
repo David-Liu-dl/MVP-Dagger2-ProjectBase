@@ -56,6 +56,23 @@ public class MainActivity extends UserBaseViewActivity {
                 .commit();
     }
 
+
+
+    @Override
+    public void onTaskStart(int taskId, boolean showProgressBar) {
+        super.onTaskStart(taskId, showProgressBar);
+    }
+
+    @Override
+    public void onTaskSuccess(int taskId, @Nullable Object data) {
+        super.onTaskSuccess(taskId, data);
+    }
+
+    @Override
+    public void onTaskFailure(int taskId, @Nullable Object data, @Nullable String msg) {
+        super.onTaskFailure(taskId, data, msg);
+    }
+
     @Override
     public void onLogin(String username) {
         super.onLogin(username);
@@ -66,6 +83,14 @@ public class MainActivity extends UserBaseViewActivity {
         showSimpleActionDialog("Note", getString(R.string.action_cancel)
                 , "Continue"
                 , (dialog, which) -> userPresenter.login(etUsername.getText().toString()));
+    }
+
+    private void showCustomizedDialog(){
+        getBaseDialogBuilder()
+                .title("Customized")
+                .positiveText("OK")
+                .onPositive((dialog, which) -> dialog.dismiss())
+                .show();
     }
 
 }

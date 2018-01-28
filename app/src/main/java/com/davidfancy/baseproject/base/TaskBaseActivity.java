@@ -14,6 +14,7 @@ import com.davidfancy.baseproject.function.mvpview.TaskBaseView;
  */
 
 public abstract class TaskBaseActivity extends AppBaseActivity implements TaskBaseView{
+
     protected boolean showProgressBar = false;
     protected ProgressDialog progressDialog;
 
