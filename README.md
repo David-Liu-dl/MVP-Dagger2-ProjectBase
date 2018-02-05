@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+# MVP-Dagger2-Project Base
+
+Table of Contents
+=================
+
+  * [Introduction](#introduction)
+  * [Features](#features)
+  * [How to build your own project](#how-to-build-your-own-project)
+  
+# Introduction
+=======
 # MVP Dagger2 Project-Base
 
 [![License](https://img.shields.io/badge/License%20-Apache%202-337ab7.svg)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -17,6 +29,7 @@ An Android project base with MVP design pattern to help you build a project fast
   * [How to use](#how-to-use)
   
 ## Introduction
+>>>>>>> dev
 MVP-Dagger2 base project helps you to build an Android project from scratch through a quicker and more formal way. This project contains several common and necessary libraries, and all the frameworks are already built. As a developer, you just need to focus on implementing UI and business logics.      
 
 The following libraries are included:
@@ -33,7 +46,11 @@ The following libraries are included:
 | RxAndroid | 1.2.1 | Multiple Threads |
 |Material Dialogs:core| 0.9.4.3 | Material Design Widget |
 
+<<<<<<< HEAD
+# Features
+=======
 ## Features
+>>>>>>> dev
 
   - BaseActivity & BaseFragment
   
@@ -227,7 +244,11 @@ The following libraries are included:
     }
     ```
 
+<<<<<<< HEAD
+# How to build your own project?
+=======
 ## How to use?
+>>>>>>> dev
 
 If you are not familiar with [MVP][mvp] and [Dagger2][dagger2]. Please click the hypers link to get more information.
 
@@ -237,8 +258,12 @@ public class MainActivity extends UserBaseViewActivity
 ```
 to demonstrate how it works.
 
+<<<<<<< HEAD
+### Step1 Create a contract for a specific view.
+=======
 ### Step1 
 Create a contract for a specific view.
+>>>>>>> dev
 ``` java
 public interface UserBaseContract {
     interface View extends TaskBaseContract.View{
@@ -252,8 +277,12 @@ public interface UserBaseContract {
     }
 }
 ```
+<<<<<<< HEAD
+### Step2 Create a Presenter extends BasePresenterImp and implements contract presenter.
+=======
 ### Step2 
 Create a Presenter extends BasePresenterImp and implements contract presenter.
+>>>>>>> dev
 Please note, this presenter has a @Inject constructor, which means the dagger2 will create it for us, and ensure 'noAuthUserApi' & 'userApi' are Singleton.
 ``` java
 public class UserPresenterImp extends BasePresenterImp<UserBaseContract.View>
@@ -281,8 +310,12 @@ public class UserPresenterImp extends BasePresenterImp<UserBaseContract.View>
 }
 ```
 
+<<<<<<< HEAD
+### Step3 Create a base activity extends AppBaseActivity and implements the contract view.
+=======
 ### Step3 
 Create a base activity extends AppBaseActivity and implements the contract view.
+>>>>>>> dev
 ```java 
 public abstract class UserBaseViewActivity extends TaskBaseActivity implements UserBaseContract.View{
 
@@ -337,8 +370,12 @@ Please note, the Presenter is injected in this view base activity.
     }
 ```
 
+<<<<<<< HEAD
+### Step4 Make the MainActivity extend the view base activity.
+=======
 ### Step4 
 Make the MainActivity extend the view base activity.
+>>>>>>> dev
 ```java
 public class MainActivity extends UserBaseViewActivity {
 
@@ -397,7 +434,11 @@ Now, you can see how convenient and clean it is. You can implement any UserApi c
     }
 ```
 
+<<<<<<< HEAD
+You can also:
+=======
 ### You can also:
+>>>>>>> dev
   - Customize Api actions in different stages by
  ``` java 
     @Override
@@ -425,6 +466,8 @@ Now, you can see how convenient and clean it is. You can implement any UserApi c
                 .show();
     }
 ```
+<<<<<<< HEAD
+=======
 ## License
 
 Copyright 2017 Yuhao Liu
@@ -441,6 +484,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+>>>>>>> dev
 [mvp]: <https://github.com/googlesamples/android-architecture>
 
 [dagger2]: <https://github.com/google/dagger>
