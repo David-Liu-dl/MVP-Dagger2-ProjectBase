@@ -85,7 +85,4 @@ public class MainActivity extends UserBaseViewActivity {
                 , (dialog, which) -> userPresenter.login(etUsername.getText().toString()));
     }
 
-    private void anotherDialog(){
-        //this is for testing pull request
-    }
 }
