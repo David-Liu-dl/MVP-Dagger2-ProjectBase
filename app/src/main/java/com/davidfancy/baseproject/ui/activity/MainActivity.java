@@ -85,12 +85,6 @@ public class MainActivity extends UserBaseViewActivity {
                 , (dialog, which) -> userPresenter.login(etUsername.getText().toString()));
     }
 
-    private void showCustomizedDialog(){
-        getBaseDialogBuilder()
-                .title("Customized")
-                .positiveText("OK")
-                .onPositive((dialog, which) -> dialog.dismiss())
-                .show();
-    }
+
 
 }
