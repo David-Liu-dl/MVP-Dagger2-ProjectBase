@@ -7,4 +7,5 @@ package com.davidfancy.baseproject.ui.activity;
  */
 
 public class Empty {
+    
 }
